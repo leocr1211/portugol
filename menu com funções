@@ -1,0 +1,87 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro a
+		//prática
+		escreva("\n---MENU---")
+		
+		escreva("\n1. Soma")
+		escreva("\n2. Subtração")
+		escreva("\n3. Produto")
+		escreva("\n4. Divisão")
+		escreva("\nEscolha um desses: ")
+		leia(a)
+
+		se(a == 1)
+		{soma()}
+		se(a == 2)
+		{subtracao()}
+		se(a == 3)
+		{multiplicacao()}
+		se(a == 4)
+		{divisao()}
+		se(a ==5)
+		{sair()}
+		senao{inicio()}
+	}
+	
+	funcao soma()
+	{
+		escreva("\nVocê escolheu soma")
+		inteiro f1, f2
+
+		escreva("\ndigite primeiro fator da soma: ")
+		leia(f1)
+
+		escreva("digite fator 2: ")
+		leia(f2)
+
+		escreva("O valor final é: ",f1+f2)
+	}
+	
+	funcao subtracao()
+	{
+		escreva("\nVocê escolheu subtração")
+		inteiro f1, f2
+
+		escreva("\ndigite primeiro fator da subtracao: ")
+		leia(f1)
+
+		escreva("digite fator 2: ")
+		leia(f2)
+
+		escreva("O valor final é: ",f1-f2)
+	}
+
+	funcao multiplicacao()
+	{
+		escreva("\nVocê escolheu soma")
+		inteiro f1, f2
+
+		escreva("\ndigite primeiro fator da multiplicacao: ")
+		leia(f1)
+
+		escreva("digite fator 2: ")
+		leia(f2)
+
+		escreva("O valor final é: ",f1*f2)
+	}
+
+	funcao divisao()
+	{
+		escreva("\nVocê escolheu divisão")
+		inteiro f1, f2
+
+		escreva("\ndigite primeiro fator da divisão: ")
+		leia(f1)
+
+		escreva("digite fator 2: ")
+		leia(f2)
+
+		escreva("O valor final é: ",f1/f2)
+	}
+	funcao sair()
+	{
+	}
+}
