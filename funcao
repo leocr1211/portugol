@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio()// sempre é executado se não invocar outras funções não serão executadas
+	{
+	//após criar a função nova "exibe" você retorna para o bloco principal
+		exibe() //invocando a funcao
+		escreva("\nVoltamos ao bloco principal")
+		soma()
+	}
+	//isto é para organizar códigos
+	funcao exibe()
+	{
+		escreva("bom dia pessoal")
+	}
+
+	funcao soma()
+	{
+		inteiro a
+		a = 4+5
+		escreva("\nAqui ocorrerá a soma!!! ", a)
+	}
+}
