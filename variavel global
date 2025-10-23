@@ -1,0 +1,82 @@
+programa
+{
+	//variaveis globais
+	inteiro op, n1, n2, n3
+	
+	funcao inicio()
+	{	escreva(" === M E N U === \n")
+		escreva("\n1- Soma")
+		escreva("\n2- Subtração")
+		escreva("\n3- Multiplicação")
+		escreva("\n4- Divisão\n")
+		escreva("\n Escolha uma Opção: ")
+		leia(op)
+		
+		escolha(op)
+		{		
+			caso 1:
+				soma()
+				pare
+
+			caso 2:
+		
+				subtracao()
+				pare 
+
+			caso 3:
+			
+				multiplicacao()
+				pare 
+
+			caso 4:
+			
+				divisao()
+				pare 
+		}
+	}
+
+	funcao soma()
+	{
+		escreva("\n")
+		escreva("Digite o 1° Número: ")
+		leia(n1)
+		escreva("Digite o 2° Número: ")
+		leia(n2)
+		n3 = n1 + n2
+		escreva(n1, " + ", n2, " = ", n3, "\n")	
+	}
+
+	funcao subtracao()
+	{
+		escreva("\n")
+		escreva("Digite o 1° Número: ")
+		leia(n1)
+		escreva("Digite o 2° Número: ")
+		leia(n2)
+		n3 = n1 - n2
+		escreva(n1, " - ", n2, " = ", n3, "\n")	
+	}
+
+	funcao multiplicacao()
+	{
+		escreva("\n") 
+		escreva("Digite o 1° Número: ")
+		leia(n1)
+		escreva("Digite o 2° Número: ")
+		leia(n2)
+		n3 = n1 * n2
+		escreva(n1, " x ", n2, " = ", n3, "\n")	
+	}
+
+	funcao divisao()
+	{
+		escreva("\n")
+		escreva("Digite o 1° Número: ")
+		leia(n1)
+		escreva("Digite o 2° Número: ")
+		leia(n2)
+		n3 = n1 / n2
+		escreva(n1, " : ", n2, " = ", n3)	
+	}
+	
+}
