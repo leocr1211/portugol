@@ -1,0 +1,38 @@
+   PASSAGEM DE PARÂMETRO POR VALORES
+
+             a          b          c
+Passo 1      1          2          3
+Passo 2      1          2          3
+Passo 3      4          5          6
+Passo 4      1          2          3
+
+-------------------------------------
+
+PASSAGEM DE PARÂMETRO POR REFERÊNCIA
+
+             a          b          c
+Passo 1      1          2          3
+Passo 2      1          2          3
+Passo 3      4          5          6
+Passo 4      4          5          6
+
+-------------------------------------
+
+
+	FUNÇÕES:
+
+- sem retorno, sem passagem de parâmetros
+  funcao vazio a()
+
+- sem retorno, com passagem de parâmetros (valor e referência)
+  	funcao vazio a(inteiro a, inteiro b)
+		ou
+  	funcao vazio a(inteiro &a, inteiro &b)
+
+- com retorno, sem passagem de parâmetros
+	funcao inteiro a()
+
+- com retorno, com passagem de parâmetros
+  	funcao inteiro a(inteiro a, inteiro b)
+		ou
+  	funcao inteiro a(inteiro &a, inteiro &b)
